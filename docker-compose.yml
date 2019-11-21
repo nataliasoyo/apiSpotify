@@ -1,20 +1,22 @@
 version: '3.4'
 
 services:
-  api:
-    build: ./bee_build
+
+  server:
+    build: ./server
     image: ${SERVICE_NAME}
+    command: /usr/app/node_modules/.bin/nodemon src/index.js
     container_name: ${SERVICE_NAME}
     volumes:
-      - gosrc:/go
-      - .:/go/src/${API_BASE_DIR}/${API_NAME}
+      - ./server/:/usr/app
+      - /usr/app/node_modules
     ports:
       - "${PORT}:${PORT}"
     env_file:
       - .env
     environment:
-      - SERVICE_TAGS=traefik.enable=true,traefik.frontend.entryPoints=http,traefik.frontend.rule=Host:${SERVICE_NAME}.localhost
-    command: sh -c 'cd ${API_BASE_DIR}/${API_NAME};go get -v -u ./...; bee run -downdoc=true -gendoc=true'
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
     depends_on:
       - db
     networks:
