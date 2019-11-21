@@ -1,0 +1,617 @@
+ signature.
+node_modules/@types/jest/index.d.ts(1514,9): error TS2687: All declarations of 'message' must have identical modifiers.
+node_modules/@types/jest/index.d.ts(1514,9): error TS2717: Subsequent property declarations must have the same type.  Property 'message' must be of type 'string', but here has type 'string | (() => string)'.
+node_modules/@types/jest/index.d.ts(1519,9): error TS2375: Duplicate number index signature.
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+ℹ ｢wdm｣: Failed to compile.
+^C
+MACBOOKs-MacBook-Pro% npm i
+
+> node-sass@4.13.0 install /Users/macbookpro/Z/professional-projects/UDistrital/presupuesto_cliente/node_modules/node-sass
+> node scripts/install.js
+
+Cached binary found at /Users/macbookpro/.npm/node-sass/4.13.0/darwin-x64-72_binding.node
+
+> @angular/cli@8.3.19 postinstall /Users/macbookpro/Z/professional-projects/UDistrital/presupuesto_cliente/node_modules/@angular/cli
+> node ./bin/postinstall/script.js
+
+
+> @compodoc/compodoc@1.1.11 postinstall /Users/macbookpro/Z/professional-projects/UDistrital/presupuesto_cliente/node_modules/@compodoc/compodoc
+> opencollective-postinstall || exit 0
+
+Thank you for using @compodoc/compodoc!
+If you rely on this package, please consider supporting our open collective:
+> https://opencollective.com/compodoc/donate
+
+
+> node-sass@4.13.0 postinstall /Users/macbookpro/Z/professional-projects/UDistrital/presupuesto_cliente/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /Users/macbookpro/Z/professional-projects/UDistrital/presupuesto_cliente/node_modules/node-sass/vendor/darwin-x64-72/binding.node
+Testing binary
+Binary is fine
+npm WARN @swimlane/ngx-charts@10.1.0 requires a peer of @angular/animations@7.x but none is installed. You must install peer dependencies yourself.
+npm WARN @swimlane/ngx-charts@10.1.0 requires a peer of @angular/cdk@7.x but none is installed. You must install peer dependencies yourself.
+npm WARN @swimlane/ngx-charts@10.1.0 requires a peer of @angular/core@7.x but none is installed. You must install peer dependencies yourself.
+npm WARN @swimlane/ngx-charts@10.1.0 requires a peer of @angular/common@7.x but none is installed. You must install peer dependencies yourself.
+npm WARN @swimlane/ngx-charts@10.1.0 requires a peer of @angular/forms@7.x but none is installed. You must install peer dependencies yourself.
+npm WARN @swimlane/ngx-charts@10.1.0 requires a peer of @angular/platform-browser@7.x but none is installed. You must install peer dependencies yourself.
+npm WARN @swimlane/ngx-charts@10.1.0 requires a peer of @angular/platform-browser-dynamic@7.x but none is installed. You must install peer dependencies yourself.
+npm WARN @swimlane/ngx-charts@10.1.0 requires a peer of zone.js@^0.8.26 but none is installed. You must install peer dependencies yourself.
+npm WARN angular2-toaster@7.0.0 requires a peer of @angular/common@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN angular2-toaster@7.0.0 requires a peer of @angular/compiler@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN angular2-toaster@7.0.0 requires a peer of @angular/core@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.3.1 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.3.1 requires a peer of popper.js@^1.14.7 but none is installed. You must install peer dependencies yourself.
+npm WARN ng2-smart-table@1.3.5 requires a peer of @angular/common@^6.0.1 but none is installed. You must install peer dependencies yourself.
+npm WARN ng2-smart-table@1.3.5 requires a peer of @angular/core@^6.0.1 but none is installed. You must install peer dependencies yourself.
+npm WARN ng2-smart-table@1.3.5 requires a peer of @angular/forms@^6.0.1 but none is installed. You must install peer dependencies yourself.
+npm WARN tslint-language-service@0.9.9 requires a peer of typescript@>= 2.3.1 < 3 but none is installed. You must install peer dependencies yourself.
+
+added 144 packages from 464 contributors, removed 329 packages, updated 97 packages and audited 24619 packages in 25.759s
+found 35 vulnerabilities (12 low, 4 moderate, 19 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+MACBOOKs-MacBook-Pro% npm run start
+
+> ngx-admin@4.0.1 start /Users/macbookpro/Z/professional-projects/UDistrital/presupuesto_cliente
+> ng serve
+
+Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+ 66% building 1411/1490 modules 79 active ...e_modules/d3-hierarchy/src/partition.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 6 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1412/1490 modules 78 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 10 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1413/1492 modules 79 active ...modules/d3-time-format/src/isoFormat.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 14 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+     in mixin `nb 66% building 1414/1492 modules 78 active .../smart-table/smart-table.component.scss-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 18 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `form-control-border-color` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 22 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+Nebular T 66% building 1414/1493 modules 79 active .../d3-hierarchy/src/treemap/resquarify.jsheme: `nb-theme()` cannot find value for key `color-bg` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 47 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1417/1495 modules 78 active .../smart-table/skey ` 66% building 1417/1496 modules 79 active ...dules/d3-hierarchy/src/treemap/slice.jscard-fg-heading` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 48 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1420/1499 modules 79 active ...dules/d3-hierarchy/src/treemap/index.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg` for theme `default`
+ 66% building 1421/1499 modules 78 active .../smart-table/smart-table.component.scss         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 88 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 92 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `font-secondary` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 99 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `font-weight-bolder` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 100 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-heading` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 101 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-heading` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 108 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-success` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 169 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-success` for theme `default`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 184 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1422/1499 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `cosmic`
+ 66% building 1422/1500 modules 78 active ...s/d3-interpolate/src/transform/parse.js         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 6 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1424/1501 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 10 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1425/1502 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 14 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 18 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1425/1503 modules 78 active ...odules/d3-hierarchy/src/pack/enclose.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `form-control-border-color` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 22 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebul-vars`me/styles/core/theming/_install        66% building 1426/1503 modules 77 active .../smart-table/smart-table.component.scss  from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1427/1505 modules 78 active ..._modules/d3-hierarchy/src/pack/index.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-bg` for theme `cosmic`
+ 66% building 1428/1505 modules 77 active .../smart-table/smart-table.component.scss         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 47 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1428/1506 modules 78 active ...les/d3-hierarchy/src/hierarchy/index.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `card-fg-heading` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+`        from line 48 of stdin, in mixin `@content
+          66% building 1429/1506 modules 77 active .../smart-table/smart-table.component.scssfrom line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1430/1507 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 88 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1432/1509 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 92 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1433/1510 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `font-secondary` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 99 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1433/1511 modules 78 active ...node_modules/echarts/lib/model/Model.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `font-weight-bolder` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 100 of stdin, in mixin `@content`
+modules/@ 66% building 1434/1511 modules 77 active .../smart-table/smart-table.component.scssnebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1434/1512 modules 78 active ...e_modalue for k 66% building 1435/1512 modules 77 active .../smart-table/smart-table.component.scssey `color-fg-heading` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 101 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1436/1514 modules 78 active ...ode_modules/echarts/lib/ExtensionAPI.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-heading` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+08 of stdin, in mix 66% building 1437/1514 modules 77 active .../smart-table/smart-table.component.scssin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1437/1515 modules 78 active ...-interpolate/src/transform/decompose.jsWARe `cosmi 66% building 1438/1515 modules 77 active .../smart-table/smart-table.component.scssc`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 169 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1438/1516 modules 78 active ...ode_modules/echarts/lib/model/Global.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-primary` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 171 of stdin, in mixin `@content`
+         from line 9 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-for-theme`
+     from li 66% building 1439/1516 modules 77 active .../smart-table/smart-table.component.scssne 170 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1440/1517 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-success` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 184 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1441/1518 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-primary` for theme `cosmic`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 186 of stdin, in mixin `@content`
+         from line 9 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-for-theme`
+         from line 185 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1442/1519 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `corporate`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 6 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `corporate`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 10 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `corporate`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 14 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1442/1520 modules 78 active ...e/node_modules/echarts/lib/data/List.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `corporate`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 18 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `form-control-border-color` for theme `corporate`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 22 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-bg` for theme `corporate`
+ 66% building 1443/1520 modules 77 active .../smart-table/smart-table.component.scss         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 47 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1444/1521 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `card-fg-heading` for theme `corporate`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 48 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1445/1522 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg` for theme `corporate`
+         on lin `nb-the 66% building 1445/1523 modules 78 active ...es/d3-hierarchy/src/hierarchy/leaves.jsme`
+         from line 88 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1446/1523 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg` for theme `corporate`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 92 of stdin, in mixin `@content`
+ode_modules/@nebul 66% building 1446/1524 modules 78 active ...es/echarts/lib/model/mixin/boxLayout.jsar/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1447/1524 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `font-secondary` for theme `corporate`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 99 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+_modules/@n 66% building 1447/1525 modules 78 active ...node_modules/echarts/lib/util/format.jsebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1448/1525 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `font-weight-bolder` for theme `corporate`
+        66% building 1448/1526 modules 78 active ...es/echarts/lib/model/mixin/itemStyle.js on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 100 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1450/1527 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-heading` for theme `corporate`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 101 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1451/1528 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-heading` for theme `corporate`
+ 66% building 1451/1529 modules 78 active ...e_modules/rxjs/internal/util/isArray.js         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 108 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1453/1530 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-success` for theme `corporate`
+css, i 66% building 1453/1531 modules 78 active ..._modules/rxjs/internal/util/isObject.jsn function `nb-theme`
+         from line 169 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1455/1532 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-success` for theme `corporate`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 184 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of nomponent`es/@nebular/theme/styles/core/theming/_instal     66% building 1455/1533 modules 78 active ...echarts/lib/model/mixin/colorPalette.js     from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 6 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1456/1533 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 10 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1457/1534 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 14 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1458/1535 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-text` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 18 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1458/1536 modules 78 active ...node_modules/echarts/lib/util/number.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `form-control-border-color` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 22 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1459/1536 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-bg` for theme `kronos`
+ 66% building 1459/1537 modules 78 active ...arts/lib/data/helper/dimensionHelper.js         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 47 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1460/1538 modules 78 active ...echarts/lib/data/helper/dataProvider.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `card-fg-heading` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 48 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1461/1538 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 88 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1462/1540 modules 78 active ...es/echarts/lib/model/mixin/lineStyle.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg` for theme `kronos`
+ 67% building 1463/1540 modules 77 active .../smart-table/smart-table.component.scss         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 92 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `font-secondary` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 99 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1464/1542 modules 78 active ...de_modules/d3-collection/src/entries.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `font-weight-bolder` for theme `kronos`
+ 66% building 1465/1543 modules 78 active ...ode_modules/d3-collection/src/values.js         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 100 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 67% building 1468/1545 modules 77 active .../smart-table/smart-table.component.scssWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-heading` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 101 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+WARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-fg-heading` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 108 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1468/1546 modules 78 active ...ode_modules/d3-quadtree/src/quadtree.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-success` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 169 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+ 66% building 1469/1547 modules 78 active ...arts/lib/model/mixin/makeStyleMapper.jsWARNING: Nebular Theme: `nb-theme()` cannot find value for key `color-success` for theme `kronos`
+         on line 59 of node_modules/@nebular/theme/styles/core/theming/_get-value.scss, in function `nb-theme`
+         from line 184 of stdin, in mixin `@content`
+         from line 116 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `@content`
+         from line 97 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component-with-scss-vars`
+         from line 115 of node_modules/@nebular/theme/styles/core/theming/_install.scss, in mixin `nb-install-component`
+         from line 4 of stdin
+
+                                                                               u Date: 2019-11-21T15:13:42.234Z
+Hash: a6ffd01d875850c5544f
+Time: 55768ms
+chunk {app-pages-pages-module} app-pages-pages-module.js, app-pages-pages-module.js.map (app-pages-pages-module) 17.7 MB  [rendered]
+chunk {charts-charts-module} charts-charts-module.js, charts-charts-module.js.map (charts-charts-module) 955 kB  [rendered]
+chunk {editors-editors-module} editors-editors-module.js, editors-editors-module.js.map (editors-editors-module) 580 kB  [rendered]
+chunk {extra-components-extra-components-module} extra-components-extra-components-module.js, extra-components-extra-components-module.js.map (extra-components-extra-components-module) 3.2 MB  [rendered]
+chunk {forms-forms-module} forms-forms-module.js, forms-forms-module.js.map (forms-forms-module) 565 kB  [rendered]
+chunk {layout-layout-module} layout-layout-module.js, layout-layout-module.js.map (layout-layout-module) 851 kB  [rendered]
+chunk {main} main.js, main.js.map (main) 2.04 MB [initial] [rendered]
+chunk {maps-maps-module} maps-maps-module.js, maps-maps-module.js.map (maps-maps-module) 1.34 MB  [rendered]
+chunk {modal-overlays-modal-overlays-module} modal-overlays-modal-overlays-module.js, modal-overlays-modal-overlays-module.js.map (modal-overlays-modal-overlays-module) 1.9 MB  [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 460 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 9.27 kB [entry] [rendered]
+chunk {scripts} scripts.js, scripts.js.map (scripts) 1.38 MB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 4.09 MB [initial] [rendered]
+chunk {tables-tables-module} tables-tables-module.js, tables-tables-module.js.map (tables-tables-module) 561 kB  [rendered]
+chunk {ui-features-ui-features-module} ui-features-ui-features-module.js, ui-features-ui-features-module.js.map (ui-features-ui-features-module) 876 kB  [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 9.88 MB [initial] [rendered]
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+ℹ ｢wdm｣: Compiled successfully.
+^C
+MACBOOKs-MacBook-Pro% clear
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+/docs
+
+# e2e
+".gitignore" 46L, 495C
