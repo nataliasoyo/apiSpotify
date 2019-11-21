@@ -3,12 +3,12 @@ version: '3.4'
 services:
 
   server:
-    build: ./server
+    build: ./
     image: ${SERVICE_NAME}
     command: /usr/app/node_modules/.bin/nodemon src/index.js
     container_name: ${SERVICE_NAME}
     volumes:
-      - ./server/:/usr/app
+      - ./:/usr/app
       - /usr/app/node_modules
     ports:
       - "${PORT}:${PORT}"
